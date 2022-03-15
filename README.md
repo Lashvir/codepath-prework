@@ -39,6 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+This first gif is not fully loading, the link I used >http://g.recordit.co/a9NBtGtChi.gif fully plays but not on Github
 ![](http://g.recordit.co/a9NBtGtChi.gif)
 ![](http://g.recordit.co/s3BhhueDK1.gif)
 ![](gif3-link-here)
