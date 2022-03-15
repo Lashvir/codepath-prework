@@ -4,7 +4,7 @@
 
 Submitted by: Hiram E. Vasquez Padilla
 
-Time spent: 6 hours spent in total
+Time spent: 5 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/incandescent-mountainous-replace || https://incandescent-mountainous-replace.glitch.me/
 
@@ -46,16 +46,18 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+[   1. W3schools>>>https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown 
+    2. Mozilla>>>https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+    3. W3schools in general>>>https://www.w3schools.com/js/js_intro.asp]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+[In this project the biggest challenge was correctly implementing a countdown timer. I was not familiar with "setInterval()" and had to try a few different things to get the hang of it. By this I mean the setInterval() itself and making the site update the timer in real time so the player can see it. DOM helped a lot on that end, just had to experiment like I did with setInterval(). I used examples and read up on this on W3schools to get a base for it and then just experimented. The trickiest part was learning where to call the setinterval and clear it too. Initially I had multiple calls to it and calls at incorrect places but little by little I figured out where to call and clear it.]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[Algorithms. Algorithms are something I personally feel that I do not know enough about. Besides algorithms I have questions about how security is handled and how the entire web app comes together, there is a lot going on in a web app from different programs written in different languages that have to come together and work hopefully without bugs. I also have more questions but are related more to asking about practical experience.]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[First thing I would do is clean up the web page and make it more pretty like improving the visual of the timer editing the header and visually improve the game button area. I would add a light/dark mode(my preference is dark) and change a the layout of the page too. Second thing I would do is experiment with adding custom sounds and then cleaning up some of my code, I believe that there are some things in the css that can be deleted since it is redundant or unnecessary. Same thing in the JS and HTML, I think there are some things that are probably redundant and can be removed.]
 
 
 
@@ -66,7 +68,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Hiram E. Vasquez Padilla
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
