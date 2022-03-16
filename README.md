@@ -47,8 +47,7 @@ This first gif is not fully loading, the link I used >http://g.recordit.co/a9NBt
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[   
-1. W3schools>>>https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown 
+[   1. W3schools>>>https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_countdown 
     2. Mozilla>>>https://developer.mozilla.org/en-US/docs/Web/API/setInterval
     3. W3schools in general>>>https://www.w3schools.com/js/js_intro.asp]
 
