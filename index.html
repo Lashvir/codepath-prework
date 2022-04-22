@@ -44,11 +44,17 @@
     
   </head>
   <body>
+   
     <!-- The wrapper and content divs set margins and positioning -->
     <div class="wrapper">
       <div class="content" role="main">
-        <!-- This is the start of content for our page -->
+        <!-- This is the start of content for the page -->
         <h1 class="title">Tiles Pattern Game!</h1>
+        
+            <button id="themeLightBtn" onclick="lightMode(0)">Light mode</button>
+            <button id="themeDarkBtn" onclick="lightMode(1)" class="hidden">Dark mode</button> 
+          
+        
         <!-- Instructions on using this project -->
         <div class="instructions">
           <h2>Instructions</h2>
@@ -69,8 +75,11 @@
             <span class="timerPartSec" id="timePartSec">00</span>
           </div>
           <!-- Start/stop buttons-->
+        <div align="center">
           <button id="startBtn" onclick="startGame()">Start</button>  
-          <button id="stopBtn" class="hidden" onclick="stopGame()">End</button> 
+          <button id="stopBtn" class="hidden" onclick="stopGame()">End</button>
+        </div>
+          
           <!-- Game buttons-->
           <div id="gameButtonArea">
             <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"></button>
@@ -86,18 +95,7 @@
     </div>
     <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
     <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
+     
     </footer>
     <!-- Import the webpage's javascript file -->
     <script src="/script.js" defer></script>
