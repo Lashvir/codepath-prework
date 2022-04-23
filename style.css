@@ -81,7 +81,7 @@ to this section's matching END comment to see page-specific styles.
   padding: 1rem 0 0.75rem 0;
   width: 100%;
   flex-wrap: wrap;
-  border-top: 4px solid #fff;
+  
 }
 
 .footer a:not(.btn--remix):link,
@@ -100,7 +100,6 @@ a:not(.btn--remix):visited {
 
 .footer .links {
   padding: 0.5rem 1rem 1.5rem;
-  white-space: nowrap;
 }
 
 .divider {
@@ -175,11 +174,13 @@ input {
   font-family: inherit;
   font-size: 100%;
   background: #FFFFFF;
+  background-color: #ffdab9;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 15px;
   padding: 10px; /*0.5rem 1rem;*/
   transition: 500ms;
+  
 }
 /* The 4 game buttons*/
 #gameButtonArea>button{

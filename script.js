@@ -38,6 +38,26 @@ function startGame(){
   playClueSequence();
 }
 
+//Dark and Light Mode
+function lightMode(mode) {
+  if(mode==0){
+    let  changeToLight=document.body.style.backgroundColor = "white";
+    let  textToLight=document.body.style.color = "black";
+    let h1ToLight=document.getElementsByTagName("h1");
+    h1ToLight[0].style.color = "black"
+    document.getElementById("themeLightBtn").classList.add("hidden");
+    document.getElementById("themeDarkBtn").classList.remove("hidden");
+  }
+  else{
+    let  changeToDark=document.body.style.backgroundColor = "black";
+    let  textToDark=document.body.style.color = "#b76e79";
+    let h1ToDark=document.getElementsByTagName("h1");
+    h1ToDark[0].style.color = "#008080"
+    document.getElementById("themeDarkBtn").classList.add("hidden");
+    document.getElementById("themeLightBtn").classList.remove("hidden");
+  }
+  
+}
 
 function guessTime(){
   let timePassed=0;
@@ -51,25 +71,7 @@ function guessTime(){
       document.getElementById("timePartSec").innerHTML=timeLeft+"s";
     },1000);
 }
-/*
-//time format
-function formatTimeLeft(time) {
-  // The largest round integer less than or equal to the result of time divided being by 60.
-  const minutes = Math.floor(time / 60);
-  
-  // Seconds are the remainder of the time divided by 60 (modulus operator)
-  let seconds = time % 60;
-  
-  // If the value of seconds is less than 10, then display seconds with a leading zero
-  if (seconds < 10) {
-    seconds = `0${seconds}`;
-  }
 
-  // The output in MM:SS format
-  return `${minutes}:${seconds}`;
-}
-
-*/
 //will generate random numbers b/w 1 and 5 for the pattern
 function randomizer(){
   for(let i=0;i<pattern.length-1;i++){
