@@ -35,14 +35,15 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app!
+- [x] Added a light and dark mode button to switch themes 
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 This first gif is not fully loading, the link I used >http://g.recordit.co/a9NBtGtChi.gif fully plays but not on Github
-![](http://g.recordit.co/a9NBtGtChi.gif)
-![](http://g.recordit.co/s3BhhueDK1.gif)
-![](gif3-link-here)
+![x](http://g.recordit.co/a9NBtGtChi.gif)
+![x](http://g.recordit.co/s3BhhueDK1.gif)
+![x](http://g.recordit.co/4C5O05JtSH.gif)
 ![](gif4-link-here)
 
 ## Reflection Questions
@@ -58,13 +59,13 @@ This first gif is not fully loading, the link I used >http://g.recordit.co/a9NBt
 [Algorithms. Algorithms are something I personally feel that I do not know enough about. Besides algorithms I have questions about how security is handled and how the entire web app comes together, there is a lot going on in a web app from different programs written in different languages that have to come together and work hopefully without bugs. I also have more questions but are related more to asking about practical experience.]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[First thing I would do is clean up the web page and make it more pretty like improving the visual of the timer editing the header and visually improve the game button area. I would add a light/dark mode(my preference is dark) and change a the layout of the page too. Second thing I would do is experiment with adding custom sounds and then cleaning up some of my code, I believe that there are some things in the css that can be deleted since it is redundant or unnecessary. Same thing in the JS and HTML, I think there are some things that are probably redundant and can be removed.]
+[First thing I would do is clean up the web page and make it more pretty like improving the visual of the timer editing the header and visually improve the game button area. Second thing I would do is experiment with adding custom sounds and then cleaning up some of my code, I believe that there are some things in the css that can be deleted since it is redundant or unnecessary. Same thing in the JS and HTML, I think there are some things that are probably redundant and can be removed.]
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://www.loom.com/share/ceefe83aec334d28b925eb76b5f42031)
+[My 5-minute Interview Recording](https://www.loom.com/share/01a0e174fd4f467fb7930767d4fcfa13)
 
 
 ## License
